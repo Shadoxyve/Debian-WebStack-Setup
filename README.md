@@ -7,7 +7,7 @@ Inorder to Use this Script Make sure you Run Debian/Ubuntu System
 ```
 curl -O https://raw.githubusercontent.com/Shadoxyve/Debian-WebStack-Setup/main/Setup.sh
 ```
-2. Execute the Script and Completes its Installation
+2. Execute the Script and Completes the Installation
 ```
 sudo bash Setup.sh
 ```
