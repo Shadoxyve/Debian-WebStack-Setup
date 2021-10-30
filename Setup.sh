@@ -15,7 +15,7 @@ echo
 printf 'Enter the Number : ' ;read -r stack
 
 if [[ $stack == "1" ]] ; then
-
+apt update -y
 	echo "Installing Nginx"
 apt install nginx -y
 	echo "Installing MariaDB"
@@ -28,6 +28,7 @@ clear
 	echo "----------x-x-x-LEMP Installation Is Complete-x-x-x----------"
 
 elif [[ $stack == "2" ]] ; then
+apt update -y
         echo "Installing Apache"
 apt install apache2 -y
 	echo "Installing MariaDB"
@@ -39,6 +40,7 @@ mysql_secure_installation
 clear
 	echo "---------x-x-x-LAMP Installation Is Complete-x-x-x----------"
 elif [[ $stack == "3" ]] ; then
+apt update -y
         echo "Installing Dependencies"
 apt install dirmngr gnupg apt-transport-https software-properties-common ca-certificates curl gcc g++ make git python2 -y
         echo "Installing Node.js"
